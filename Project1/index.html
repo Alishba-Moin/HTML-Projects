@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body bgcolor="#b162e3">
+    <center>
+        <h1>...STUDENT REGISTRATION FORM...</h1>
+    <form>
+        <p>
+        <label for="name">NAME:</label>
+        <input type="text" name="name">
+        </p>
+        <p>
+        <label for="father-name">FATHER' NAME:</label>
+        <input type="text" name="father-name">
+        </p>
+        <p>
+        <label for="mother-name">MOTHER'S NAME:</label>
+        <input type="text" name="mother-name">
+        </p>
+        <p>
+        <label for="phone-no">PHONE-NO:</label>
+        <input type="number" name="phone-no" placeholder="Enter your Phone-No">
+        </p>
+        <p>
+        <label for="email">EMAIL:</label>
+        <input type="text" name="email" placeholder="Enter your Email">
+        </p>
+        <p>
+            <label for="gender">GENDER:</label>
+            <input type="radio" name="gender" value="m">Male
+            <input type="radio" name="gender" value="f">Female
+            <input type="radio" name="gender" value="o">Other
+        </p>
+        <p>
+            <label for="date-of-birth">DATE OF BIRTH:</label>
+            <input type="date" name="date-of-birth">
+        </p>
+        <p>
+            <label for="address">ADDRESS:</label>
+            <input type="text" name="address" size="25">
+        </p>
+        <p>
+            <label for="blood-group">BLOOD GROUP: </label>
+            <select id="blood-group" name="blood-group">
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+
+            </select>
+        </p>
+        <p>
+            <label for="department">DEPARTMENT:</label>
+            <input type="radio"  id="llb" name="department" value="llb">LLB
+            <input type="radio" id="cse" name="department" value="cse">CSE
+            <input type="radio" id="bba" name="department" value="bba">BBA
+            <input type="radio" id="it" name="department" value="it">IT
+        </p>
+        <p>
+            <label for="courses">COURSES:</label>
+            <input type="checkbox" name="courses">HTML
+            <input type="checkbox" name="courses">CSS
+            <input type="checkbox" name="courses">TYPESCRIPT
+            <input type="checkbox" name="courses">NEXT.JS
+        </p>
+        <p>
+            <label for="upload-photo">UPLOAD PROFILE PICTURE:</label>
+            <input type="file" name="upload-photo">
+        </p>
+    </br>
+        <div>
+            <center><b>FORM SUBMIT:</b>
+            <button type="submit">submit</button>
+            <br/>
+            <br/>
+            <b>FORM RESET:</b>
+            <button type="reset">reset</button>
+          </center>
+            </div>
+        </center>
+    
+    </form>
+</body>
+</html>
